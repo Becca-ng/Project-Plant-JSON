@@ -1,0 +1,63 @@
+{
+"plants":[
+  {
+    "name": "Pothos",
+    "toxic": true
+  },
+  {
+    "name": "Monstera",
+    "toxic": true
+  },
+  {
+    "name": "Mini Monstera",
+    "toxic": true
+  },
+  {
+    "name": "Snake Plant",
+    "toxic": true
+  },
+  {
+    "name": "Aloe Vera",
+    "toxic": true
+  },
+  {
+    "name": "Adason's Monstera",
+    "toxic": true
+  },
+  {
+    "name": "Philodendron Cordatum",
+    "toxic": true
+  },
+  {
+    "name": "String of Pearls",
+    "toxic": true
+  },
+  {
+    "name": "Cat Grass",
+    "toxic": false
+  },
+
+  {
+    "name": "Pilea Peperomia",
+    "toxic": false
+  },
+  {
+    "name": "Spider Plant",
+    "toxic": false
+  },
+
+  {
+    "name": "String of Hearts",
+    "toxic": false
+  },
+  {
+    "name": "Burros Tail",
+    "toxic": false
+  },
+  {
+    "name": "Parlor Palm",
+    "toxic": false
+  }
+ 
+]
+}

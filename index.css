@@ -1,0 +1,195 @@
+/* #(ID) .(Class)  */
+
+.bg{
+    /* background-color: black; */
+    background-image: url('graphics/wood.jpeg');
+    /* bg property that makes things fit to screen  */
+  /* Full height */
+  max-height: 100%;
+  width: auto;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+  #bgImg{
+    height:50vw;
+    width: auto;
+    margin-left:35%;
+    border: 10px solid black;
+    position: fixed;
+    z-index: -2;
+  }
+
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+        height: 25vw;
+        width: 25vw;
+        border: 10px solid darkgoldenrod;
+        position:absolute;
+        margin-left:40vw;
+        margin-top:5%;
+      }
+
+      #locationbtn{
+    position:fixed;
+    z-index: 20;
+    margin-top: 2%;
+    margin-left: 49.5vw;
+}
+
+/* Buttons */
+
+
+#back{
+    height: auto;
+    width: 15vw;
+    z-index: 5;
+    margin-left:38%;
+    margin-top:40%;
+    position:static;
+}
+
+.searchback{
+  height: auto;
+  width: 15vw;
+  z-index: 5;
+  margin-left:36%;
+  margin-top:8%;
+  position:static;
+}
+
+.vetback{
+  height: auto;
+  width: 15vw;
+  z-index: 5;
+  margin-left:36%;
+  margin-top:45%;
+  position:static;
+
+}
+
+
+#searchbtn{
+  height: 5vw;
+  width: auto;
+  position: fixed;
+  margin-left:47%;
+ margin-top:12.5%;
+}
+
+#vetbtn{
+  height: 5vw;
+  width: auto;
+  position:absolute;
+  margin-left:51%;
+  margin-top:18.7%;
+
+}
+
+
+
+#toxbtn{
+  height: 60px;
+  width: auto;
+  padding-left: 43vw; 
+  margin-top: 2.5%;
+  position: absolute;
+
+}
+
+#nontoxbtn{
+  height: 60px;
+  width: auto;
+  padding-left: 58vw; 
+  margin-top: 6%;
+  position: absolute;
+}
+
+
+/* results page */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height:20vw;
+  width: 20vw;
+  position: absolute;
+  margin-left: 43vw;
+  margin-top: 13%;
+ 
+}
+
+.cardImg{
+width: 100%;
+height:100%;
+object-fit: fill;
+padding:15px;
+}
+
+#zoom {
+  transition: transform .05s; /* Animation */
+}
+
+#zoom:hover {
+  transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* /* extra stuff  */
+
+/* #animate{
+  animation:fadeInUp;
+  animation-duration: 2s;
+} */
+
+
+#left{
+
+}
+
+.speechL{
+  width:15vw;
+  height:auto;
+  z-index:20;
+  margin-top: 30%;
+  margin-left: 47%;
+  position:absolute;
+  /* /* animation:fadeIn;
+  animation-duration: 2s;
+  animation-duration: 4s;
+  animation-delay: 2s; */ 
+animation: fadeIn  3s 1s linear both alternate;
+animation-iteration-count: 2;
+}
+
+.speechR{
+  width:15vw;
+  height:auto;
+  z-index:20;
+  margin-top: 30%;
+  margin-left: 40%;
+  position:absolute;
+animation: fadeIn  3s 7s linear both alternate;
+animation-iteration-count: 2;
+}
+
+/* @keyframes fadeIn{
+  0% {opacity: 100;}
+  50% {opacity:0}
+  75% {opacity:0}
+  100% {opacity:0}
+} */
+
+/* #speechleft{
+  animation:fadeOut;
+  animation-duration: 2s;
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-fill-mode: both;
+} */
+
+

@@ -1,0 +1,33 @@
+<!-- This page I will be using an API that allows me to search vets via zipcode -->
+
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="vet.js"></script>
+</head>
+
+<body class="bg">
+    <div>
+        <img id="bgImg" src="graphics/vetbg.png">
+        <div>
+            <button id="locationbtn" onclick="getVets()">Find local vets</button>
+        </div>
+        <div id="map">
+        <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhuhpBpWpIpqPaSURNRpANxQTJvIdoGXY&callback=initMap&v=weekly&libraries=places"
+            async></script>
+        </div>
+    </div>
+    <div>
+        <a href="/Users/beccung/Desktop/Plant/index.html">
+            <img class = "vetback" src="graphics/Buttons/backbutton.png">
+        </a>
+    </div>
+
+
+</body>
+
+</html>
